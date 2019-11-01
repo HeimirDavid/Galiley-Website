@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Zilla+Slab:300,400,500,600,700&display=swap');
+
+body {
+    font-family: 'Zilla Slab', serif;
+    background-color: #333;
+
+}
+
+/*--------------------------------- Colour */
+
+#navbar-color {
+    background-color: #000!important;
+}
+
+.text-color-dark {
+    color: #212121;
+}
+
+/*--------------------------------- Navbar/Menu */
+
+.menucontainer {
+    opacity: 0.8;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.menuitem {
+    height: 50px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0px 10px 0px 10px;
+    border: 1px solid #d4d4d4;
+    transition: ease-in-out 0.3s;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: #d4d4d4;
+    height: 120px;
+}
+
+.menuitem a i {
+    padding-top: 22px;
+    display: block;
+    color: #d4d4d4;
+    font-size: 26px;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    transition: ease-in-out 0.3s;
+}
+
+.menuitem:hover {
+    background-color: #d4d4d4;
+}
+
+.menuitem:hover.menuitem span {
+    color: #212121;
+}
+
+.navbar::before,
+.navbar::after {
+    content: "";
+    margin-bottom: 1.2em;
+    margin-left: 2em;
+    margin-right: 2em;
+    width: 18%;
+    height: 0.2em;
+    background-color: #d4d4d4;
+}
+
+.navbar::after {
+    width: 20%;
+}
+
+.fixed-top {
+    padding-top: 1.2em;
+}
+
+.navbar-brand {
+    display: none;
+}
+
+/*--------------------------------- Header */
+
+.black-container {
+    width: 100%;
+    height:6em;
+    background-color: #000;
+}
+
+.heading {
+    color: #fafafa;
+    padding-top: 20px;
+}
+
+.header-background-img {
+    display: block;
+    background-image: url("../images/galiley_diddi.jpg");
+    padding: 20px;
+    background-size: cover;
+}
+
+/*
+.logo-container {
+    margin-top: 7%;
+}
+*/
+
+.logo-white {
+    opacity: 1.9;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+
+
+
+
+button .navbar-toggler {
+    z-index: 100;
+}
+
+
+
+
+
+/*--------------------------------- Media Queries */
+
+@media (max-width: 767px) {
+    .navbar::before,
+    .navbar::after {
+        display: none;
+    }
+    
+    .navbar-brand {
+        display: block;
+    }
+    
+    .fixed-top {
+        padding: 1em;
+    }
+}
