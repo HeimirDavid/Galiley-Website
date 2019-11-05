@@ -217,10 +217,10 @@ footer {
     padding: 20px;
 }
 
-/*--------------------------------- About Section */
+/*--------------------------------- About - Section / What we offer - Section */
 
-.about-row {
-    padding: 60px 10px 20px 10px;
+.about-offer-row {
+    padding: 20px 0px;
 }
 
 .header-h2 {
@@ -229,9 +229,22 @@ footer {
     letter-spacing: 1.5px;
 }
 
-.about-text {
+.p-text {
     font-size: 20px;
     padding: 10px 10px 20px 10px;
+}
+
+.about-row {
+    padding: 60px 10px 20px 10px;
+}
+
+.offer-card {
+    background-color: #212121;
+    color: #e3e3e3;
+    padding: 20px;
+    margin-bottom: 45px;
+    box-shadow: 3px 3px 15px 0px #000;
+    opacity: 0.9;
 }
 
 /*--------------------------------- Media Queries */
@@ -251,24 +264,40 @@ footer {
     }
 }
 
+
+
 @media (min-width: 767px) {
+    
     #about-image {
-    background-image: url("../images/about-sea-image.jpg");
-    background-attachment: fixed;
-    background-size: cover;
-    height: 120vh;
-    width: 100%;
+        background-image: url("../images/about-sea-image.jpg");
+        background-attachment: fixed;
+        background-size: cover;
+        height: 120vh;
+        width: 100%;
     }
+    
+    #offer-image {
+        background-image: url("../images/galiley-offer.jpg");
+        background-attachment: scroll;
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+        box-shadow: 0px -3px 7px 0px;
+    }
+    
+    .about-offer-row {
+    padding: 60px 10px 20px 10px;
+}
     
 }
 
 @media (min-width: 767px) and (max-width: 1000px) {
     #about-image {
-    background-image: url("../images/about-sea-image.jpg");
-    background-attachment: fixed;
-    background-size: cover;
-    height: 200vh;
-    width: 100%;
+        background-image: url("../images/about-sea-image.jpg");
+        background-attachment: fixed;
+        background-size: cover;
+        height: 200vh;
+        width: 100%;
     }
 }
 
