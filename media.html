@@ -23,16 +23,18 @@
         <!------ Header Navigation Menu, Mainly written with bootstrap  ------>
         <div class="row no-gutters">
             <div class="col black-container">
-                <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark" id="navbar-black-color"> <!-- Navbar position with help of this  -->
-                    <a class="navbar-brand" href="index.html">Galiley - Home</a>                            <!-- tutorial: https://www.youtube.com/watch?v=NzjU1GmKosQ&t=90s  -->
+                <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark" id="navbar-black-color">
+                    <!-- Navbar position with help of this  -->
+                    <a class="navbar-brand" href="index.html">Galiley - Home</a>
+                    <!-- tutorial: https://www.youtube.com/watch?v=NzjU1GmKosQ&t=90s  -->
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span></button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav m-auto">
                             <li class="nav-item menuitem">
-                                <a class="nav-link" href="index.html"><span>About</span></a>
+                                <a class="nav-link" href="index.html"><span>Home</span></a>
                             </li>
-                            <li class="nav-item menuitem">
+                            <li class="nav-item menuitem active-item">
                                 <a class="nav-link" href="media.html"><span>Media</span></a>
                             </li>
                             <li class="nav-item menuitem">
@@ -68,9 +70,67 @@
             </div>
         </div>
     </header>
-  
 
-    <footer>        <!------ Footer section, Mainly structured and written with the help from CI tutorials from the Resume-Project.
+    <!------ Setlist section ------>
+
+    <section id="spotify-background-img">
+        <div class="container-fluid text-center">
+            <div class="row">
+                <div class="col setlist-header-col no-gutters">
+                    <h2 class="header-h2 uppercase">Setlist Example</h2>
+                    <p class="media-p">Sample setlists to give you an idea of what we can play for you.</p>
+                    <hr class="block-devider">
+                </div>
+            </div>
+            <div class="row spotify-row">
+                <div class="col-md-6 col-lg-4 spotify-col">
+                    <h4 class="media-h4">Þorrablót Setlist</h4>
+                    <iframe class="spotify-player" src="https://open.spotify.com/embed/playlist/4QZeudLW7MnWiILAUPKt7U" width="280" height="350" frameborder="0" allowtransparency="true" allow="encrypted-media">
+                    </iframe>
+                </div>
+                <div class="col-md-6 col-lg-4 spotify-col">
+                    <h4 class="media-h4">Sveitaball Setlist</h4>
+                    <iframe class="spotify-player" src="https://open.spotify.com/embed/playlist/2FBAyqjclfFVyT0rqLviCm" width="280" height="350" frameborder="0" allowtransparency="true" allow="encrypted-media">
+                    </iframe>
+                </div>
+                <div class="col-md-6 col-lg-4 spotify-col">
+                    <h4 class="media-h4">Wedding Setlist</h4>
+                    <iframe class="spotify-player" src="https://open.spotify.com/embed/playlist/1dCeG5aQ9p8rPVUolKtvYU" width="280" height="350" frameborder="0" allowtransparency="true" allow="encrypted-media">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!------ Video section ------>
+
+    <section>
+        <div class="container-fluid text-center grey-color video-container">
+            <div class="row no-gutters">
+                <div class="col video-header-col">
+                    <h2 class="header-h2 uppercase">Video Example</h2>
+                    <p class="media-p">Videos from a music competition between singers, Galiley as band.</p>
+                    <hr class="block-devider-white">
+                </div>
+            </div>
+            <div class="row youtube-row">
+                <div class="col-12 youtube-col">
+                    <div class="youtube-container">
+                        <iframe width="660" height="415" src="https://www.youtube.com/embed/3JVGaeEDMSM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <hr class="block-devider">
+                <div class="col-12 youtube-col">
+                    <div class="youtube-container">
+                        <iframe width="660" height="415" src="https://www.youtube.com/embed/HIVcZIDyKss" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+
+                </div>
+            </div>
+    </section>
+
+    <footer>
+        <!------ Footer section, Mainly structured and written with the help from CI tutorials from the Resume-Project.
                              Since i liked the design and strucure and felt that it fits well within this project. ------>
         <div class="container-fluid">
             <div class="row" id="footer-details">
@@ -80,7 +140,7 @@
                     </h5>
                     <p class="inline-block">Feeling lost? click here to go to our home page.</p>
                 </div>
-                
+
                 <div class="col-sm-4">
                     <h5 class="uppercase footer-heading">Follow Us</h5>
                     <p class="inline-block">Keep up with the news by following us on social media!</p>
@@ -111,7 +171,7 @@
                         </li>
                     </ul>
                 </div>
-                
+
                 <div class="col-sm-4">
                     <h5 class="uppercase footer-heading">Contact Us</h5>
                     <p class="inline-block">Reach out to us either by Email or Phone!</p>
