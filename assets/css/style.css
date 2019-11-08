@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Zilla+Slab:300,400,500,600,700&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Zilla Slab', serif;
     background-color: #e3e3e3;
-
 }
 
 /*--------------------------------- Colour */
@@ -20,6 +23,9 @@ body {
     background-color: #c5c5c5;
 }
 
+.grey-blue {
+    background-color: #76809a;
+}
 /*------------------------------- Special padding/margins/text */
 
 h1, h2, h3, h4, h5 {
@@ -48,6 +54,27 @@ h1, h2, h3, h4, h5 {
 
 .text-center {
     text-align: center;
+}
+
+.gotop-col {
+    padding: 20px;
+}
+
+.gotopbtn {
+    text-align: center;
+    text-decoration: none;
+    color: #212121;
+    font-size: 1.5em;
+    margin: 20px 20px;
+    transition: ease-in-out 0.3s;
+    -moz-transition: ease-in-out 0.3s;
+    -webkit-transition: ease-in-out 0.3s;
+    -o-transition: ease-in-out 0.3s;
+}
+
+.gotopbtn:hover {
+    color: #a5a5a5;
+    text-decoration: none;
 }
 
 
@@ -371,11 +398,6 @@ footer {
     opacity: .96;
 }
 
-.video-container {
-    padding:0px 0px 80px 0px;
-    
-}
-
 .video-header-col {
     background-color: #212121;
     color: #e3e3e3;
@@ -387,7 +409,7 @@ footer {
     padding: 10px;
 }
 
-.youtube-container {
+.youtube-container {  /*   Code copied to make youtube player responsive. Source: https://avexdesigns.com/responsive-youtube-embed/    */
 position: relative;
 padding-bottom: 56.25%;
 padding-top: 30px; height: 0; overflow: hidden;
