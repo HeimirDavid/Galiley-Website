@@ -49,6 +49,17 @@ h1, h2, h3, h4, h5 {
     background-color: #e3e3e3;
 }
 
+.container-fluid {
+    padding: 0;
+}
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+/*--------------------------------- General and shares styles/items */
+
 .text-center {
     text-align: center;
 }
@@ -78,13 +89,11 @@ h1, h2, h3, h4, h5 {
     text-decoration: none;
 }
 
-.container-fluid {
-    padding: 0;
-}
-
-.row {
-    margin-right: 0;
-    margin-left: 0;
+.btn-book {
+    font-size: 24px;
+    border-radius: 2px;
+    background-color: rgba(33, 33, 33, 0.5);
+    border-color: rgba(33, 33, 33, 0)
 }
 
 /*--------------------------------- Headings text styles */
@@ -457,6 +466,8 @@ height: 100%;
 .pricing-col {
     padding-top: 30px;
     height: 100%;
+    background-color: #4b4b4b;
+    color: #e3e3e3;
 }
 
 .package-header-row {
@@ -487,6 +498,7 @@ height: 100%;
 /*--------------------------------- Media Queries */
 
 @media (max-width: 767px) {
+    
     .navbar::before,
     .navbar::after {
         display: none;
@@ -506,6 +518,13 @@ height: 100%;
     
     .reviews-container {
         background: #e3e3e3;
+    }
+
+    .package-row,
+    .package-row .package-header-row 
+    {
+        background-color: #e3e3e3;
+        color: #212121;
     }
 }
 
@@ -545,12 +564,14 @@ height: 100%;
         width: 100%;
     }
     
+    /*
     .green-black-img {
         background-image: url("../images/setlist-background.png");
         background-attachment: fixed;
         background-size: cover;
         box-shadow: 0px -3px 7px 0px;
     }
+    */
 
     .about-offer-row {
     padding: 60px 10px 20px 10px;
