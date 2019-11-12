@@ -10,17 +10,13 @@ body {
     overflow-x: hidden;
 }
 
-/*--------------------------------- Colour */
+/*--------------------------------- Background Colour */
 
-.green-color {
-    background-color: #35af7e;
-}
-
-.grey-color {
+.bg-grey-color {
     background-color: #c5c5c5;
 }
 
-.grey-blue {
+.bg-grey-blue {
     background-color: #76809a;
 }
 /*------------------------------- Special padding/margins/text */
@@ -257,7 +253,6 @@ h1, h2, h3, h4, h5 {
 */
 
 .logo-white {
-    opacity: 1.9;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -279,14 +274,16 @@ footer {
     margin-bottom: 10px;
 }
 
-.footer-heading a {
+.footer-heading a,
+.col-sm-4 p a {
     transition: ease-in-out 0.3s;
     -moz-transition: ease-in-out 0.3s;
     -webkit-transition: ease-in-out 0.3s;
     -o-transition: ease-in-out 0.3s;
 }
 
-.footer-heading a:hover {
+.footer-heading a:hover,
+.col-sm-4 p a:hover {
     color: #a5a5a5;
     text-decoration: none;
 }
@@ -567,14 +564,6 @@ height: 100%;
     .fixed-top {
         padding: 1em;
     }
-    
-    .reviews-container {
-        background-color: #e3e3e3;
-    }
-    
-    .reviews-container {
-        background: #e3e3e3;
-    }
 
     .package-row,
     .package-row .package-header-row 
@@ -587,12 +576,12 @@ height: 100%;
 @media (min-width: 767px) {
     
     /* Images use and fixed image website layout inspiried by this tutorial: https://www.youtube.com/watch?v=PWoOpJtkyjI */
-    #about-image { /* Image from unsplash taken by Luca Baggio */
+    #about-image {
         background-image: url("../images/about-background.jpg");
         background-attachment: fixed;
-        background-size: cover;
-        height: 120vh;
-        width: 100%;
+        background-size: 120vw 120vh;
+        background-position-x: -60px;
+        background-position-y: -70px; 
     }
     
     #spotify-background-img {
@@ -619,15 +608,6 @@ height: 100%;
         height: 100%;
         width: 100%;
     }
-    
-    /*
-    .green-black-img {
-        background-image: url("../images/setlist-background.png");
-        background-attachment: fixed;
-        background-size: cover;
-        box-shadow: 0px -3px 7px 0px;
-    }
-    */
 
     .about-offer-row {
     padding: 60px 10px 20px 10px;
@@ -639,35 +619,6 @@ height: 100%;
     
     .youtube-col {
         padding: 10px 100px;
-    }
-}
-
-@media (min-width: 767px) and (max-width: 1000px) {
-    #about-image {
-        background-image: url("../images/about-background.jpg");
-        background-attachment: fixed;
-        background-size: cover;
-        height: 200vh;
-        width: 100%;
-    }
-    
-        #spotify-background-img {
-        background-image: url("../images/spotify-background-img.jpg");
-        background-attachment: fixed;
-        background-size: cover;
-        height: 250vh;
-        width: 100%;
-    }
-}
-
-@media (max-width: 576px) {
-    /* To get rid of padding and margin to link up "Offer section" and "reviews section" in mobile view */
-    .about-offer-row {
-    padding-top: 20px;
-    }
-    
-    .offer-card {
-        margin: 0;
     }
 }
 
