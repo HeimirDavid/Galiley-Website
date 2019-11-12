@@ -23,8 +23,10 @@
         <!------ Header Navigation Menu, Mainly written with bootstrap  ------>
         <div class="row no-gutters">
             <div class="col black-container">
-                <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark" id="navbar-black-color"> <!-- Navbar position with help of this  -->
-                    <a class="navbar-brand" href="index.html">Galiley - Home</a>                            <!-- tutorial: https://www.youtube.com/watch?v=NzjU1GmKosQ&t=90s  -->
+                <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark" id="navbar-black-color">
+                    <!-- Navbar position with help of this  -->
+                    <a class="navbar-brand" href="index.html">Galiley - Home</a>
+                    <!-- tutorial: https://www.youtube.com/watch?v=NzjU1GmKosQ&t=90s  -->
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span></button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -69,8 +71,30 @@
         </div>
     </header>
 
+    <!------ Contact Form, written with bootstrap. Mainly structured with the help from CI tutorials from the Resume-Project  ------>    
+    <section class="container-fluid">
+        <div class="row grey-blue">
+            <div class="col contact-col">
+                    <h3 class="header-h3 text-center uppercase">Need live music for your next event?</h3>
+                    <h5 class="header-h5-contact text-center">Let us take care of it!</h5>
+                <div class="contact-form">
+                    <form>
+                        <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
+                        <input type="text" name="email" id="emailaddress" class="form-control" placeholder="Email" required />
+                        <textarea rows="7" name="eventsummary" id="eventsummary" class="form-control" placeholder="Event Description" required></textarea>
+                        <div class="form-row text-center">
+                            <div class="col">
+                                <button type="submit" class="btn btn-secondary btn-contact">Send Event Request</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <footer>        <!------ Footer section, Mainly structured and written with the help from CI tutorials from the Resume-Project.
+    <footer>
+        <!------ Footer section, Mainly structured and written with the help from CI tutorials from the Resume-Project.
                              Since i liked the design and strucure and felt that it fits well within this project. ------>
         <div class="container-fluid">
             <div class="row" id="footer-details">
@@ -80,7 +104,7 @@
                     </h5>
                     <p class="inline-block">Feeling lost? click here to go to our home page.</p>
                 </div>
-                
+
                 <div class="col-sm-4">
                     <h5 class="uppercase footer-heading">Follow Us</h5>
                     <p class="inline-block">Keep up with the news by following us on social media!</p>
@@ -111,7 +135,7 @@
                         </li>
                     </ul>
                 </div>
-                
+
                 <div class="col-sm-4">
                     <h5 class="uppercase footer-heading">Contact Us</h5>
                     <p class="inline-block">Reach out to us either by Email or Phone!</p>
