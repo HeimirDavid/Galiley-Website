@@ -391,7 +391,7 @@ footer {
 }
 
 .spotify-row {
-    margin-bottom: 40px;
+    padding-bottom: 40px;
 }
 
 .setlist-header-col {
@@ -583,15 +583,6 @@ footer {
         background-attachment: fixed;
         background-position: center;
         background-size: cover;
-        width: 100%;
-
-        
-        
-        /*
-        background-size: cover;
-        background-position-x: -40px;
-        background-position-y: -70px; 
-        */
     }
     
     .about-card {
@@ -600,16 +591,13 @@ footer {
     padding: 20px;
     margin-bottom: 45px;
     box-shadow: 3px 3px 15px 0px #000;
-    
     }
     
     #spotify-background-img {
         background-image: url("../images/spotify-background-img.jpg");
-        background-size: cover;
         background-attachment: fixed;
         background-position: center;
-        background-repeat: no-repeat;
-        min-height: 150vh;
+        background-size: cover;
 
         
         /*
@@ -623,8 +611,7 @@ footer {
         background-image: url("../images/galiley-offer.jpg");
         background-attachment: scroll;
         background-size: cover;
-        height: 100%;
-        width: 100%;
+        background-position: center;
         box-shadow: 0px -3px 7px 0px;
     }
     
@@ -632,8 +619,7 @@ footer {
         background-image: url("../images/packages-img.jpg");
         background-attachment: scroll;
         background-size: cover;
-        height: 100%;
-        width: 100%;
+        background-position: cover;
     }
 
     .about-offer-row {
