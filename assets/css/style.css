@@ -581,17 +581,42 @@ footer {
     #about-image {
         background-image: url("../images/about-background.jpg");
         background-attachment: fixed;
-        background-size: 120vw 120vh;
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+
+        
+        
+        /*
+        background-size: cover;
         background-position-x: -40px;
         background-position-y: -70px; 
+        */
+    }
+    
+    .about-card {
+    background-color: rgba(227, 227, 227, 0.6);
+    color: #212121;
+    padding: 20px;
+    margin-bottom: 45px;
+    box-shadow: 3px 3px 15px 0px #000;
+    
     }
     
     #spotify-background-img {
         background-image: url("../images/spotify-background-img.jpg");
+        background-size: cover;
         background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 150vh;
+
+        
+        /*
         background-size: cover;
         height: 120vh;
         width: 100%;
+        */
     }
     
     #offer-image {
