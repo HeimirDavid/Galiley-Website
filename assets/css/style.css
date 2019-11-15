@@ -380,6 +380,10 @@ footer {
 
 /*--------------------------------- Setlist Section / Video Section */
 
+iframe {
+    border: 0;
+}
+
 .spotify-header-row {
     background-color: #35af7e;
 }
