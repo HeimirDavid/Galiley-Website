@@ -3,85 +3,89 @@ Galiley is a cover band for hire. They play on everything from weddings
 to private parties or school events. This website is ment to showcase what
 service the band offers and give potential customers more information. Galiley is
 a real band that I used to play in, but we are not playing at the moment. Therefore 
-this website is half-fiction, so not everything on it is correct. 
+this website is half-fiction, so some content on here is made up.
+
+**Live demo of the website:** https://heimirdavid.github.io/Galiley-Website/
 ___ 
 
 ## UX
+
 #### User Stories
 
 * As a band for hire who are looking for more gigs to play we want to showcase our
   services. Introduce us to potential cusomers, show what we play and what events, 
   pricing, where we are playing and how to contact us. 
-* As a customer i want to find if the band fits for my event, if they are within my
+* As a customer i want to find out if the band fits for my event, if they are within my
   budget and how to hire them. 
-* As a fan i like to see upcoming gigs and their whereabouts, videos and music, and links
+* As a fan I want to see upcoming gigs and their whereabouts, videos and music, and links
   to social media. 
-
-
-Use this section to provide insight into your UX process, 
-focusing on who this website is for, what it is that they want 
-to achieve and how your project is the best way to help them 
-achieve these things.
-
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-
-As a user type, I want to perform an action, so that I can achieve a goal.
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
 #### Strategy
 
+The main goal for this website is to have an eye catching design and easily accessibly information about the service the band provides 
+to increese gigs for different events. 
+
 #### Scope
+
+For users looking for a band to hire for their event, I wanted information about what events the band does, media with setlists, 
+their pricing and easily accessable contact information in multiple ways. Enough to catch interest but still encourage the user 
+to contact the band. 
 
 #### Structure
 
+* On the landing page I wanted a "About Us" section, "What We Offer" section and a "Reviews" section to straight away give the
+user an idea of who the band are, and why they should hire them.
+
+* The Second page would be the media page with setlists, audio and video to give a taste of what we can offer to the user. 
+
+* The third page would be schedule for fans and potential customers to see when the next show would be and if we could be availible
+  for the users event in mind. 
+
+* Fourth Page is the "Pricing" page. The page is devided into two sections, one with information on how we price our events and
+  encourage the user to contact the band to get a deal of their own. Second section contain some fixed packages with different services
+  and prices. 
+
+* Fifth page with a contact form, making it easy for the user to get in touch. 
+
 #### Skeleton 
 
+Wireframes made with Balsamiq:  
+
+[Home Page](https://github.com/HeimirDavid/Galiley-Website/blob/master/assets/wireframes/Home_Page.png)  
+
+[Media Page](https://github.com/HeimirDavid/Galiley-Website/blob/master/assets/wireframes/Media_Page.png)  
+
+[Schedule Page](https://github.com/HeimirDavid/Galiley-Website/blob/master/assets/wireframes/Schedule_Page.png)  
+
+[Pricing Page](https://github.com/HeimirDavid/Galiley-Website/blob/master/assets/wireframes/Pricing_Page.png)  
+
+[Contact Page](https://github.com/HeimirDavid/Galiley-Website/blob/master/assets/wireframes/Contact_Page.png)  
+ 
+
 #### Surface
+
+Instead of using a photo gallery i wanted a lot of interesting background images to make the content more interesting.
+Since the band is a genre neutral band I wanted a greyscale color scheme, 
+quite neutral typography, and a grey-blue background color to match the background images. 
+
 ___
 ## Features 
-Features
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
-
-The home page features 3 sections. One "About Us" section which introduces the band,
-one "What We Offer" where we describe what service we can offer for different events, and 
-one review section which is made up reviews, but look nice. 
-
-
-The media page features two sections. One "Setlist" section which feautures different setlists for different events, and where you 
-also can listen to the songs. The other section is "Video", where you can find some youtube videos from the band. 
-
-The schedule page shows upcoming gigs with their whereabouts, date and some additional information.
-
-The pricing page has some packages listing what you get for what price. Also information of how we price our services,
-and encurage the user to contact the band to get a deal.
-
-The contact page is a form where you can contact the band with a request. 
+ 
 
 #### Excisting Features
-Existing Features
-Feature 1 - allows users X to achieve Y, by having them fill out Z
-...
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
-Features Left to Implement
-Another feature idea
-Technologies Used
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
-* About Us - Allows the user to get to know more about the people and the band they would be hiring. 
-* What We Offer - Allows the user to read about what kind of service we provide, and see if it fits with their event. 
-* Reviews - Let's the potential customer read other peoples reviews and get an insight to what it would be to hire the band.
-* Setlist Sample - Allows the user to both see the songs, but also listen to sample setlists the band could play on their event. 
-* Video - Let's the user see and hear what the band can provide. 
-* Schedule - Allows the fans to find the next gig they would like to attend. In addition to letting users who are looking to hire 
+* **About Us** - Allows the user to get to know more about the people and the band they would be hiring. 
+* **What We Offer** - Allows the user to read about what kind of service we provide, and see if it fits with their event. 
+* **Reviews** - Let's the potential customer read other peoples reviews and get an insight to what it would be to hire the band.
+* **Setlist Sample** - Allows the user to both see the songs, but also listen to sample setlists the band could play on their event. 
+* **Video** - Let's the user see and hear what the band can provide. 
+* **Schedule** - Allows the fans to find the next gig they would like to attend. In addition to letting users who are looking to hire 
   get a sence if the band is availible or not. 
-* Our Pricing - Allows the user to read more about how we price our events, and also what info to bring when contacting the band to
+* **Our Pricing** - Allows the user to read more about how we price our events, and also what info to bring when contacting the band to
   get a deal of their own. 
-* Pricing Packages - Let's the user get a feel of what different events cost and what is included in them. 
-* Contact - Let's the user contact the band with a request.
-* Follow Us - Let's the user find our social media pages and find more news there. 
+* **Pricing Packages** - Let's the user get a feel of what different events cost and what is included in them. 
+* **Contact** - Let's the user contact the band with a request.
+* **Follow Us** - Let's the user find our social media pages and find more news there. 
 
 #### Features left to implement
 
@@ -90,8 +94,10 @@ In this section, you should mention all of the languages, frameworks, libraries,
   two videos displayed are from a music competition and is not the most relevant of content, but okey for now. 
 
 #### Another Feature Idea 
- Would like to let the user pick out a package of their own and make their own custom setlist 
+ * Would like to let the user pick out a package of their own and make their own custom setlist 
  to that package of their choice.
+
+* Would also like to translate the site so it is availible in both english and icelandic.
  ____
  
 ### Technologies
@@ -103,40 +109,81 @@ In this section, you should mention all of the languages, frameworks, libraries,
 * Bootstrap 4/jquery JS - Used for the responsiveness and the colapse of the navigation bar.
   links: https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js  | 
          https://code.jquery.com/jquery-3.3.1.slim.min.js
+* Fontawesome - Used for icons. link: https://kit.fontawesome.com/2ea8c5e5d2.js
 ___
 
 ## Testing
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+* W3C validator was used both on the CSS and the HTML files. A few varnings on the CSS file due to webkit. And a few in
+  the HTML files: iframe for spotify and youtube that have been fixed and missing alt tag on an image.
+* Responsivness and coverage have been tested with the chrome devtools and also on multiple
+  browsers (Chrome, Edge, Safari ) and deviced. One issue came up with browser support for the CSS rule "background-attachment: fixed"
+  on one tablet. This has been fixed with replacement of the rule and use of the pseudo element "before", with code found on Stackoverflow and creditied for 
+  below. 
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+  #### Testing User Stories
+* ***"As a customer i want to find if the band fits for my event, if they are within my
+  budget and how to hire them."*** - In the "About Us" and "What We Offer" on the home page it is described what events we can do 
+  and also how it can be tailored for the customer. On the "Pricing" page there are both information for packages and what they cost, 
+  including info on how we price our events and how to contact us, with a direct link to the contact page.
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+* ***"As a fan i like to see upcoming gigs and their whereabouts, videos and music, and links
+  to social media."*** - On the "Schedule" page they can read about upcoming gigs. Videos and Music can be found on the "Media" page,
+  and direct links to social media are in the footer under the "Follow Us!" section. 
 
-Contact form:
-Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+**Social Media:** The facebook link works and takes you to the facebook page of the band. But the band does not have a youtube page or 
+ an instagram page so those links are to the band-manager and pianist, Guðjón Jónsson. Which has approved that I use his pages
+ for this website. 
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+Note: As this website is only HTML and CSS and hosted on github, the form does not submit anything and therefore does not work. 
+As more testing goes i've tested every button, video, audio and link on different browsers and devices.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
+
+***The form has been tested as follows:*** 
+1. Go to the "contact" page.
+2. Try to submit the empty form and verify that an error message about the required fields appears.
+3. Try to submit the form with an invalid email address and verify that a relevant error message appears.
+4. Try to submit the form with all inputs valid and verify that a success message appears. - This ***does not work*** since the 
+   form does not actually submit.
+____
 ## Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
+I deployed the site on GitHub Pages, straight from the master branch. link: https://heimirdavid.github.io/Galiley-Website/
 
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
+There is not any difference between the deployed version and the developement verision.
 
-### Credits
-### Content
-The text for section Y was copied from the Wikipedia article Z
-Media
-The photos used in this site were obtained from ...
-Acknowledgements
-I received inspiration for this project from X
+Note: I forgot to put the .c9 file in a  .gitignore file in the beginning of the project, so that got uploaded to github at first as well but has been fixed.
+
+## Credits
+* I found a soloution for the issue i had with browser support for the "background-attachment: fixed"
+ on stack overflow, answer from "vincent" and copied the code from there. Source: https://stackoverflow.com/questions/26372127/background-fixed-no-repeat-not-working-on-mobile
+* Credits to this article i found on making the youtube iframe responsive. Written by John Surdakowski and code copied from there.
+   Source: https://avexdesigns.com/responsive-youtube-embed/
+
+
+#### Content
+
+All the text was written by me for this webpage. 
+
+#### Media
+
+The background picture on the "About Us" section is from unsplash from @v2osk. link: https://unsplash.com/photos/-LRuNvY8W7Q
+
+The rest of the pictures are taken by Kristinn Ingi (Header image) Palli Kristmundsson and Brynjar Steinn Stefánsson and owned by the band.
+
+#### Inspiration 
+I received inspiration for this project from two main sources. First is the Code Institute project Resume-project, where the footer 
+and the "Contact" page has it's similarities in the structure.  
+
+Second source would be the "Grade 5 Example Project: Haley Schafer Portfolio", where i got inspiration for the landing page design,
+with the fixed background image and layout. 
+
+#### Acknowledgements
+
+Thanks to Moosa Hassan, my mentor for guiding me through this project.
+
+Thanks to the slack channel of Code Insitute, where i found lots of answers to my questions. 
+
+Thanks to https://stackoverflow.com/, that almost felt like my second home during this project.
+
+And thanks to my fellow bandmates at Galiley for giving me good feedback and their inputs to this project. 
