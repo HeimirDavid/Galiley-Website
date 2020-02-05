@@ -7,7 +7,7 @@ this website is half-fiction, so some content on here is made up.
 
 
 **Live demo of the website:** https://heimirdavid.github.io/Galiley-Website/
-___ 
+___
 
 ## UX
 
