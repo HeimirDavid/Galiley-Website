@@ -10,7 +10,7 @@ body {
     overflow-x: hidden;
 }
 
-/*--------------------------------- Background Colour */
+/*--------------------------------- Background Colour/ general colour */
 
 .bg-grey-color {
     background-color: #c5c5c5;
@@ -19,6 +19,15 @@ body {
 .bg-grey-blue {
     background-color: #76809a;
 }
+
+.bg-dark-grey {
+    background-color: #212121;
+}
+
+.clr-white {
+    color:#e3e3e3;
+}
+
 /*------------------------------- Special padding/margins/text */
 
 h1, h2, h3, h4, h5 {
@@ -545,13 +554,19 @@ iframe {
 
 /*--------------------------------- Schedule Page */
 
-.schedule-row {
-    margin: 50px 20px;
+.schedule-col {
+    margin: 50px 0px;
 }
 
 .schedule-header {
     font-weight: 500;
     font-size: 32px;
+}
+
+#map {
+    background-color: green;
+    height: 60vh;
+    width: 100%;
 }
 
 /*--------------------------------- Media Queries */
@@ -600,15 +615,6 @@ iframe {
   background-size: cover;
 }
     
-    /*
-    #about-image {
-        background-image: url("../images/about-background.jpg");
-        background-attachment: fixed;
-        background-position: center;
-        background-size: cover;
-    }
-    */
-    
     .about-card {
         background-color: rgba(227, 227, 227, 0.6);
         color: #212121;
@@ -634,20 +640,6 @@ iframe {
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
-        
-    /*
-    #spotify-background-img {
-        background-image: url("../images/spotify-background-img.jpg");
-        background-attachment: fixed;
-        background-position: center;
-        background-size: cover;
-
-        
-        /*
-        background-size: cover;
-        height: 120vh;
-        width: 100%;
-        */
     }
     
     #offer-image {
